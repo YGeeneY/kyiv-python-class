@@ -9,6 +9,7 @@ def test(request):
     return HttpResponse('<h1> HELLO {}</h1>'.format(var_q,))
 
 
+# Git comment for vica
 def test2(request):
     print('foo 2 was called')
     return HttpResponse('<h1> HELLO 2 </h1>')
